@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    font-family: 'Patrick Hand SC', cursive, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: var(--secondary);
 }
 
@@ -72,7 +72,6 @@ hr {
 
 .navbar li {
     list-style: none;
-    font-size: 1.2em;
 }
 
 .navbar li a {
@@ -145,7 +144,6 @@ footer {
     background-color: var(--primary);
     color: var(--secondary);
     padding: 15px;
-    font-size: 1.2rem;
 }
 
 #footer {
@@ -397,7 +395,6 @@ footer {
 
 #education > h2, #experience > h2, #skills-parent > h2, #resume-about h2 {
     text-decoration: underline;
-    font-family: 'Patrick Hand SC', cursive, sans-serif;
     font-size: 2em;
 }
 
@@ -517,11 +514,11 @@ footer {
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .cv:hover, .cv:focus{
-    background-color: var(--secondary);
+    background-color: var(--ternary);
     color: var(--primary);
 }
 
@@ -609,10 +606,8 @@ footer {
     padding: 30px 5vw;
     color: var(--secondary);
     text-shadow: 2px 2px 0 var(--primary);
-    -webkit-text-stroke: var(--secondary) 0.5px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 3vw;
 }
 
 #gurage {
@@ -729,7 +724,7 @@ footer {
 }
 
 .listen i, .follow i {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .songs {
@@ -750,7 +745,6 @@ footer {
     color: var(--secondary);
     padding: 30px;
     text-align: center;
-    font-size: 1.5em;
     display: flex;
     flex-wrap: wrap;
 }
