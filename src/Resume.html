@@ -3,11 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
         <title>Resume</title>
     </head>
     <body>
         <header>
             <nav class="navbar">
+                <label class="toggle-button">
+                    <input type="checkbox">
+                </label>
                 <ul>
                     <li><a href="Home.html">Home</a></li>
                     <li><a href="Resume.html" class="current">Resume</a></li>
@@ -23,20 +27,20 @@
         </header>
         <hr>
         <main>
-            <section id="top">
-                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" id="profile_pic">
+            <section id="resume-top" class="parts">
+                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" id="resume-pic">
                 <hgroup>
                     <h1>ABENEZER<br>SEIFU<br>DULA</h1>
                     <p>Software Engineering Student</p>
                 </hgroup>
             </section>
-            <section id="about">
+            <section id="resume-about" class="parts">
                 <hgroup>
                     <h2>About Me</h2>
                     <p>An ambitious and passionate Software Engineering student, learning new things every day. Born and raised in the eastern part of Ethiopia, Harar and currently enrolled at Addis Ababa University as Software Engineering student. Taking risks and more steps to cope up with the fast growing, changing and interesting tech sector.</p>
                 </hgroup>
             </section>
-            <section id="education">
+            <section id="education" class="parts">
                 <h2>Education</h2>
                 <div class="allschools">
                     <div class="school">
@@ -57,7 +61,7 @@
                     <p>Currently a 3rd year, studying Software Engineering with a CGPA of 4.00. Continuing my highschool academic success, here also at AAU I am achieving good success academically and also participating in extra curriculum activities like clubs in campus.</p>
                 </div>
             </section>
-            <section id="experience">
+            <section id="experience" class="parts">
                 <h2>Experience</h2>
                 <div class="exp">
                     <h4>Volunteering Tutor, Hi-Tech Academy<br>Jun, 2023 - Aug 2023</h4>
@@ -73,7 +77,7 @@
                     <aside>"Idir" is a local social system practiced in Ethiopia which is the gathering of people and helping each other through happy and bad times.</aside>
                 </div>
             </section>
-            <section>
+            <section id="skills-parent" class="parts">
                 <h2>Skills</h2>
                 <div id="skills">
                     <div>

@@ -3,11 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
         <title>Adventure</title>
     </head>
     <body>
         <header>
             <nav class="navbar">
+                <label class="toggle-button">
+                    <input type="checkbox">
+                </label>
                 <ul>
                     <li><a href="Home.html">Home</a></li>
                     <li><a href="Resume.html">Resume</a></li>
@@ -23,16 +27,16 @@
         </header>
         <hr>
         <main>
-            <hgroup id="about">
-                <h1>Meskel in Gurage</h1>
-                <p>Since I was a little kid and I know myself I always go to my parent's homeland, "Gurage" for Meskel holiday celebration in September. I love the pure nature of the countryside and the traditional ceremony of the Meskel holiday. This time of year all the families who live in cities get together once a year to celebrate this holiday with their families and the ones who they hold dear. And my mom and dad also have the habit going to their parents, my grandparents, and the place where they were raised, which I tagged along with from early years upto now. I have a great vacation before the long year of school and learning begins and refresh my mind. I also have the time to catch up with all my relatives, cousins, uncles and aunts and have a wonderful time and holiday that stays in memory for a lifetime.</p>
+            <hgroup id="adventure-top" class="parts">
+                <video loop autoplay muted poster="images/Meskel_IMG_27.JPG" id="background-video" oncontextmenu="return false;">
+                    <source src="Resources/Meskel_VID_2.mp4">
+                </video>
+                <hgroup>
+                    <h1>Meskel in Gurage</h1>
+                    <p>Since I was a little kid and I know myself I always go to my parent's homeland, "Gurage" for Meskel holiday celebration in September. I love the pure nature of the countryside and the traditional ceremony of the Meskel holiday. This time of year all the families who live in cities get together once a year to celebrate this holiday with their families and the ones who they hold dear. And my mom and dad also have the habit going to their parents, my grandparents, and the place where they were raised, which I tagged along with from early years upto now. I have a great vacation before the long year of school and learning begins and refresh my mind. I also have the time to catch up with all my relatives, cousins, uncles and aunts and have a wonderful time and holiday that stays in memory for a lifetime.</p>
+                </hgroup>
             </hgroup>
-            <aside>
-                <p><a href="https://www.britannica.com/topic/Gurage" target="_blank">Gurage</a>, ethnolinguistic group of the fertile and semi-mountainous region some 150 miles (240 kilometres) south and west of Addis Ababa, Ethiopia, bounded by the Awash River on the north, the Gilgel Gibe River (a tributary of the Omo River) on the southwest, and Lake Ziway on the east.</p>
-                <p>In Gurage, the <a href="https://en.wikipedia.org/wiki/Meskel" target="_blank">Meskel</a> festival is the most important annual event and it lasts for more than a week. This is a time for family reunion. Every family buys new clothes, especially for the children and there is a ritual exchange of gifts. The meskel celebration in Gurage may have a span of 14days depending on the area. Through these days there are days on which only a certain type of food is eaten for example there's a day on which only Gomen is eaten.</p>
-                <p>If you are interested you can learn more about <a href="https://myhabeshawi.wordpress.com/2020/09/26/welcome-to-gurage/" target="_blank">Meskel in Gurage</a>.</p>
-            </aside>
-            <section id="gallery">
+            <section id="gallery" class="parts">
                 <hgroup>
                     <h3>From my gallery</h3>
                     <p>These are some of my memories from there taken from my gallery. Enjoy!</p>
@@ -70,10 +74,15 @@
                     <a href="images/Meskel_IMG_30.jpeg"><img src="images/Meskel_IMG_30.jpeg" alt="A guy holding the leg of the slaughtered ox"></a>
                 </div>            
             </section>
-            <video controls>
+            <video controls id="slaughtering">
                 <source src="Resources/Meskel_VID_1.mp4">
             Your browser does not support the video. <br>The video is people slaughtering the holiday ox.
             </video>
+            <aside id="gurage">
+                <p><a href="https://www.britannica.com/topic/Gurage" target="_blank">Gurage</a>, ethnolinguistic group of the fertile and semi-mountainous region some 150 miles (240 kilometres) south and west of Addis Ababa, Ethiopia, bounded by the Awash River on the north, the Gilgel Gibe River (a tributary of the Omo River) on the southwest, and Lake Ziway on the east.</p>
+                <p>In Gurage, the <a href="https://en.wikipedia.org/wiki/Meskel" target="_blank">Meskel</a> festival is the most important annual event and it lasts for more than a week. This is a time for family reunion. Every family buys new clothes, especially for the children and there is a ritual exchange of gifts. The meskel celebration in Gurage may have a span of 14days depending on the area. Through these days there are days on which only a certain type of food is eaten for example there's a day on which only Gomen is eaten.</p>
+                <p>If you are interested you can learn more about <a href="https://myhabeshawi.wordpress.com/2020/09/26/welcome-to-gurage/" target="_blank">Meskel in Gurage</a>.</p>
+            </aside>
         </main>
         <footer>
             <div id="footer">

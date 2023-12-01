@@ -4,10 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio Home</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
             <nav class="navbar">
+                <label class="toggle-button">
+                    <input type="checkbox">
+                </label>
                 <ul>
                     <li><a href="Home.html" class="current">Home</a></li>
                     <li><a href="Resume.html">Resume</a></li>
@@ -18,84 +22,106 @@
                     <li><a href="Adventure.html">Adventure</a></li>
                     <li><a href="Entertainments.html">Entertainments</a></li>
                     <li><a href="Contact.html">Contact</a></li>
-                </ul>
+                </ul>    
             </nav>       
         </header>
         <hr>
         <main>
             <section id="about">
                 <hgroup>
-                    <h1>Hey, I am Abenezer Seifu</h1>
-                    <p>I am currently a 3<sup>rd</sup> year Software Engineering student at Addis Ababa University. Focusing on learning and striving to cope up with the fast growing tech sector.</p>
+                    <h1>Hello World, <br>I am Abenezer Seifu</h1>
+                    <p>A 3<sup>rd</sup> year Software Engineering student at Addis Ababa University. Focusing on learning and striving to cope up with the fast growing tech sector.</p>
                 </hgroup>
-                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" id="profile_pic">
+                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" id="profile-pic">
             </section>
-            <section id="others">
-                <h2>Related pages</h2>
-                <div class="other_pages">
-                    <a href="Resume.html"><img src="images/Resume.png" alt="Resume Page"></a>
-                    <h4>Resume</h4>
-                    <p>If you want to know more about me you can check my Resume here.</p>
-                </div>
-                <div class="other_pages">
-                    <a href="Projects.html"><img src="images/Tribute_Page.png" alt="Projects Page"></a>
-                    <h4>Projects</h4>
-                    <P>You can see all the personal projects that I have done previously. Through my time as learning and as an individual hobby.</P>
-                </div>
-                <div class="other_pages">
-                    <a href="Adventure.html"><img src="images/Meskel_IMG_26.JPG" alt="Adventure Page"></a>
-                    <h4>Adventure</h4>
-                    <p>I go to Gurage Zone every year for celebration of Meskel. And I always have a great time there with all my family. You can enjoy my photo gallery of my time there.</p>
-                </div>
-                <div class="other_pages">
-                    <a href="Entertainments.html"><img src="images/OneRepublic.jpg" alt="Entertainments Page"></a>
-                    <h4>Entertainments</h4>
-                    <p>I spend most of my free time listening to Music, Watching Football and different entertaining activities. You can check about all my entertainment alternatives that I enjoy the most.</p>
-                </div>
-            </section>
-            <article class="quote_container">
-                <h2>Quotes</h2>
+            <div id="others-parent">
+                <section id="others">
+                    <h2>Related pages</h2>
+                    <a href="Resume.html"><div class="other-pages">
+                        <img src="images/Resume.png" alt="Resume Page">
+                        <hgroup>
+                            <h4>Resume</h4>
+                            <p>If you want to know more about me you can check my Resume here.</p>
+                        </hgroup>
+                    </div></a>
+                    <hr>
+                    <a href="Projects.html"><div class="other-pages">
+                        <img src="images/Tribute_Page.png" alt="Projects Page">
+                        <hgroup>
+                        <h4>Projects</h4>
+                            <P>You can see all the personal projects that I have done previously. Through my time as learning and as an individual hobby.</P>
+                        </hgroup>
+                    </div></a>
+                    <hr>
+                    <a href="Adventure.html"><div class="other-pages">
+                        <img src="images/Meskel_IMG_26.JPG" alt="Adventure Page">
+                        <hgroup>
+                            <h4>Adventure</h4>
+                            <p>I go to Gurage Zone every year for celebration of Meskel. And I always have a great time there with all my family. You can enjoy my photo gallery of my time there.</p>
+                        </hgroup>
+                    </div></a>
+                    <hr>
+                    <a href="Entertainments.html"><div class="other-pages">
+                        <img src="images/OneRepublic.jpg" alt="Entertainments Page">
+                        <hgroup>
+                            <h4>Entertainments</h4>
+                            <p>I spend most of my free time listening to Music, Watching Football and different entertaining activities. You can check about all my entertainment alternatives that I enjoy the most.</p>
+                        </hgroup>
+                    </div></a>
+                    <hr>
+                </section> 
+            </div>
+            
+            <div class="quotes">
                 <div class="slider_wrapper">
                     <div class="slider">
-                        <div class="container">
+                        <div class="quote-container">
                             <blockquote id="quote_1">
                                 "Whether you think you can or you think you can't, you're right." 
-                                - Henry Ford
+                                <br>- Henry Ford
                             </blockquote>
                         </div>
-                        <div class="container">
+                        <div class="quote-container">
                             <blockquote id="quote_2">
                                 "The most important thing is to enjoy your life - to be happy - it's all that matters." 
-                                - Steve Jobs
+                                <br>- Steve Jobs
                             </blockquote>
                         </div>
-                        <div class="container">
+                        <div class="quote-container">
                             <blockquote id="quote_3">
                                 "The greatest glory in living lies not in never falling, but in rising every time we fall." 
-                                - Nelson Mandela
+                                <br>- Nelson Mandela
                             </blockquote>
                         </div>
-                        <div class="container">
+                        <div class="quote-container">
                             <blockquote id="quote_4">
                                 "Nothing is impossible, the word itself says 'I'm possible'!"
-                                - Audrey Hepburn
+                                <br>- Audrey Hepburn
                             </blockquote>
                         </div>
-                        <div class="container">
+                        <div class="quote-container">
                             <blockquote id="quote_5">
                                 "Life is like riding a bicycle. To keep your balance you must keep moving."
-                                - Albert Einstein
+                                <br>- Albert Einstein
                             </blockquote>
                         </div>
-                        <div class="container">
+                        <div class="quote-container">
                             <blockquote id="quote_6">
                                 "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present."
-                                - Bill Keane 
+                                <br>- Bill Keane 
                             </blockquote>
                         </div>
                     </div>
+                    <div class="slider-nav">
+                        <a href="#quote_1"></a>
+                        <a href="#quote_2"></a>
+                        <a href="#quote_3"></a>
+                        <a href="#quote_4"></a>
+                        <a href="#quote_5"></a>
+                        <a href="#quote_6"></a>
+                    </div>
                 </div>
-            </article>
+            </div>
         </main>
         <footer>
             <div id="footer">
