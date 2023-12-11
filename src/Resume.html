@@ -9,15 +9,15 @@
     <body>
         <header>
             <nav class="navbar">
-                <label class="toggle-button">
+                <label class="navbar__toggle-button">
                     <input type="checkbox">
                 </label>
                 <ul>
                     <li><a href="Home.html">Home</a></li>
-                    <li><a href="Resume.html" class="current">Resume</a></li>
+                    <li><a href="Resume.html" class="navbar-item--current">Resume</a></li>
                     <li><a href="Projects.html">Projects</a></li>
                 </ul>
-                <a href="Home.html"><img src="images/AB_Logo.jpg" alt="AB Logo" class="logo"></a>  
+                <a href="Home.html"><img src="images/AB_Logo.jpg" alt="AB Logo" class="navbar__logo"></a>  
                 <ul >
                     <li><a href="Adventure.html">Adventure</a></li>
                     <li><a href="Entertainments.html">Entertainments</a></li>
@@ -27,22 +27,22 @@
         </header>
         <hr>
         <main>
-            <section id="resume-top" class="parts">
-                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" id="resume-pic">
+            <section class="resume-top parts">
+                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" class="resume-pic">
                 <hgroup>
                     <h1>ABENEZER<br>SEIFU<br>DULA</h1>
                     <p>Software Engineering Student</p>
                 </hgroup>
             </section>
-            <section id="resume-about" class="parts">
+            <section class="resume-about parts">
                 <hgroup>
                     <h2>About Me</h2>
                     <p>An ambitious and passionate Software Engineering student, learning new things every day. Born and raised in the eastern part of Ethiopia, Harar and currently enrolled at Addis Ababa University as Software Engineering student. Taking risks and more steps to cope up with the fast growing, changing and interesting tech sector.</p>
                 </hgroup>
             </section>
-            <section id="education" class="parts">
+            <section class="education parts">
                 <h2>Education</h2>
-                <div class="allschools">
+                <div class="education__schools">
                     <div class="school">
                         <a href="https://6475e8f9abc8a.site123.me/" target="_blank"><img src="images/Hi-Tech_Academy_Logo.png" alt="Hi-Tech Academy Logo"></a>   
                         <h4><a href="https://6475e8f9abc8a.site123.me/" target="_blank">Hi-Tech Academy</a>, Grade 1-12</h4>
@@ -51,7 +51,7 @@
                     </div>
                     <p>Finished each grade with great score, average and class rank of no higher than 3rd, mostly ranked 1st. Had a good relationship with classmates. Helped them through their difficulties and digest the things we learned from teachers after school and around class breaks. Graduated high school by scoring 634 out of 700 at Ethiopian Higher Education Entrance Certificate Examination in 2021.</p>    
                 </div>
-                <div class="allschools reverse">
+                <div class="education__schools education__schools--reverse">
                     <div class="school">
                         <a href="http://www.aau.edu.et/" target="_blank"><img src="images/Addis_Ababa_University_logo.png" alt="Addis Ababa University Logo"></a>   
                         <h4><a href="http://www.aau.edu.et/" target="_blank">Addis Ababa University</a>, Software Engineering (BSc.)</h4>
@@ -61,114 +61,112 @@
                     <p>Currently a 3rd year, studying Software Engineering with a CGPA of 4.00. Continuing my highschool academic success, here also at AAU I am achieving good success academically and also participating in extra curriculum activities like clubs in campus.</p>
                 </div>
             </section>
-            <section id="experience" class="parts">
+            <section class="experience parts">
                 <h2>Experience</h2>
-                <div class="exp">
+                <div class="experience__item">
                     <h4>Volunteering Tutor, Hi-Tech Academy<br>Jun, 2023 - Aug 2023</h4>
                     <p>A two month summer volunteering tutor about introduction to programming (Python) to interested high school students who aspire to be software engineers at my alma mater Hi-Tech Academy.</p>
                 </div>
-                <div class="exp">
+                <div class="experience__item">
                     <h4>A2SV community education<br>May, 2023 - Present</h4>
-                    <p>Learning Data Structure and Algorithms at <a href="https://a2sv.org/">A2SV</a> community division 2 from May-Aug 2023 & at division 1 from Aug 2023 - Oct 2023. And currently promoted to the in-person education of the A2SV program as generation 5.</p>
+                    <p>Learning Data Structure and Algorithms at <a href="https://a2sv.org/" target="_blank">A2SV</a> community division 2 from May-Aug 2023 & at division 1 from Aug 2023 - Oct 2023. And currently promoted to the in-person education of the A2SV program as generation 5.</p>
                 </div>
-                <div class="exp">
+                <div class="experience__item">
                     <h4>A project about local Idir managing app</h4>
                     <p>I have been working on a pet project with my friend through the summer of 2023 about an Idir managing application that helps facilitate the management of Idir members, monthly payments and other financial workings of Idir.</p>
                     <aside>"Idir" is a local social system practiced in Ethiopia which is the gathering of people and helping each other through happy and bad times.</aside>
                 </div>
             </section>
-            <section id="skills-parent" class="parts">
+            <section class="skills-parent parts">
                 <h2>Skills</h2>
-                <div id="skills">
+                <div class="skills">
                     <div>
                         <h4>Python</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent python">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--python">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Java</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent java">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--java">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>SQL & MySQL</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent sql">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--sql">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Git & GitHub</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent git">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--git">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>HTML & CSS</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent html">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--html">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Networking and Packet Tracer</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent networking">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--networking">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Creativity</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent creativity">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--creativity">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Critical Thinking</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent critical">    
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--critical">    
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Communication</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent communication">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--communication">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Team Work</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent teamwork">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--teamwork">
                             </div>
                         </div>
                     </div>
                     <div>
                         <h4>Leadership</h4>
-                        <div class="skill_container">
-                            <div class="skill_percent leadership">
+                        <div class="skill-container">
+                            <div class="skill-percent skill-percent--leadership">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <div id="document">
-                <h4>You can check my resume here</h4>
-                <a href="Resources/Abenezer_Seifu_CV.pdf" class="cv">Preview</a>
-                <a href="Resources/Abenezer_Seifu_CV.pdf" download="Abenezer Seifu's CV" class="cv">Download</a>
+            <div class="document">
+                <a href="Resources/Abenezer_Seifu_CV.pdf" class="document__link" download="Abenezer Seifu's CV">Download Resume</a>
             </div>
         </main>
         <footer>
-            <div id="footer">
-                <nav id="sitemap">
-                    <ul class="lists">
+            <div class="footer-content">
+                <nav class="sitemap">
+                    <ul class="sitemap__lists">
                         <li><a href="Home.html">Home</a></li>
                         <li><a href="Resume.html">Resume</a></li>
                         <li><a href="Projects.html">Projects</a></li>
@@ -177,9 +175,9 @@
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <address id="socials">
+                <address class="socials">
                     <p>How do you prefer to take coffee?</p>
-                    <ul class="lists">
+                    <ul class="sitemap__lists">
                         <li><a href="https://www.facebook.com/abenezer.seifu" target="_blank">Facebook</a></li>
                         <li><a href="https://t.me/Abe16s" target="_blank">Telegram</a></li>
                         <li><a href="https://www.instagram.com/abe16s/" target="_blank">Instagram</a></li>
@@ -191,8 +189,8 @@
                 </address>
             </div>
             <hr>
-            <div id="copyright">
-                <img src="images/AB_Logo.jpg" alt="AB Logo" class="logo">
+            <div class="copyright">
+                <img src="images/AB_Logo.jpg" alt="AB Logo" class="navbar__logo">
                 <p>Copyright ©2023 All rights reserved | Abenezer Seifu </p>
             </div>
         </footer>

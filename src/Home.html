@@ -9,15 +9,15 @@
     <body>
         <header>
             <nav class="navbar">
-                <label class="toggle-button">
+                <label class="navbar__toggle-button">
                     <input type="checkbox">
                 </label>
                 <ul>
-                    <li><a href="Home.html" class="current">Home</a></li>
+                    <li><a href="Home.html" class="navbar-item--current">Home</a></li>
                     <li><a href="Resume.html">Resume</a></li>
                     <li><a href="Projects.html">Projects</a></li>
                 </ul>
-                <a href="Home.html"><img src="images/AB_Logo.jpg" alt="AB Logo" class="logo"></a>  
+                <a href="Home.html"><img src="images/AB_Logo.jpg" alt="AB Logo" class="navbar__logo"></a>  
                 <ul >
                     <li><a href="Adventure.html">Adventure</a></li>
                     <li><a href="Entertainments.html">Entertainments</a></li>
@@ -27,15 +27,15 @@
         </header>
         <hr>
         <main>
-            <section id="about">
+            <section class="about">
                 <hgroup>
                     <h1>Hello World, <br>I am Abenezer Seifu</h1>
                     <p>A 3<sup>rd</sup> year Software Engineering student at Addis Ababa University. Focusing on learning and striving to cope up with the fast growing tech sector.</p>
                 </hgroup>
-                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" id="profile-pic">
+                <img src="images/Profile_pic_of_Abenezer.png" alt="Photo of Abenezer" class="profile-pic">
             </section>
-            <div id="others-parent">
-                <section id="others">
+            <div class="others-parent">
+                <section class="others">
                     <h2>Related pages</h2>
                     <a href="Resume.html"><div class="other-pages">
                         <img src="images/Resume.png" alt="Resume Page">
@@ -73,7 +73,7 @@
             </div>
             
             <div class="quotes">
-                <div class="slider_wrapper">
+                <div class="slider-wrapper">
                     <div class="slider">
                         <div class="quote-container">
                             <blockquote id="quote_1">
@@ -124,9 +124,9 @@
             </div>
         </main>
         <footer>
-            <div id="footer">
-                <nav id="sitemap">
-                    <ul class="lists">
+            <div class="footer-content">
+                <nav class="sitemap">
+                    <ul class="sitemap__lists">
                         <li><a href="Home.html">Home</a></li>
                         <li><a href="Resume.html">Resume</a></li>
                         <li><a href="Projects.html">Projects</a></li>
@@ -135,9 +135,9 @@
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <address id="socials">
+                <address class="socials">
                     <p>How do you prefer to take coffee?</p>
-                    <ul class="lists">
+                    <ul class="sitemap__lists">
                         <li><a href="https://www.facebook.com/abenezer.seifu" target="_blank">Facebook</a></li>
                         <li><a href="https://t.me/Abe16s" target="_blank">Telegram</a></li>
                         <li><a href="https://www.instagram.com/abe16s/" target="_blank">Instagram</a></li>
@@ -149,8 +149,8 @@
                 </address>
             </div>
             <hr>
-            <div id="copyright">
-                <img src="images/AB_Logo.jpg" alt="AB Logo" class="logo">
+            <div class="copyright">
+                <img src="images/AB_Logo.jpg" alt="AB Logo" class="navbar__logo">
                 <p>Copyright ©2023 All rights reserved | Abenezer Seifu </p>
             </div>
         </footer>

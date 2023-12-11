@@ -9,15 +9,15 @@
     <body>
         <header>
             <nav class="navbar">
-                <label class="toggle-button">
+                <label class="navbar__toggle-button">
                     <input type="checkbox">
                 </label>
                 <ul>
                     <li><a href="Home.html">Home</a></li>
                     <li><a href="Resume.html">Resume</a></li>
-                    <li><a href="Projects.html" class="current">Projects</a></li>
+                    <li><a href="Projects.html" class="navbar-item--current">Projects</a></li>
                 </ul>
-                <a href="Home.html"><img src="images/AB_Logo.jpg" alt="AB Logo" class="logo"></a>  
+                <a href="Home.html"><img src="images/AB_Logo.jpg" alt="AB Logo" class="navbar__logo"></a>  
                 <ul >
                     <li><a href="Adventure.html">Adventure</a></li>
                     <li><a href="Entertainments.html">Entertainments</a></li>
@@ -27,43 +27,43 @@
         </header>
         <hr>
         <main>
-            <hgroup id="project-top" class="parts">
+            <hgroup class="project-top parts">
                 <h1>Projects</h1>
                 <p>I have done a lot of projects through out my learning process as a software engineer. Most of the projects are simple static web pages made through my learning path of Responsive Web Design course on <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>. There is also one project that I made with my friend in summer of 2023 as a pet project, made out of passion.</p>
             </hgroup>
-            <section id="projects" class="parts">
+            <section class="projects parts">
                 <h2>Projects</h2>
-                <div class="project">
+                <div class="projects__item">
                     <a href="Resources/web_pages/Tribute_Page.html" target="_blank"><img src="images/Tribute_Page.png" alt="Project 1: Tribute page for Dr. Aklilu Lemma"></a>
                     <p>One of the required projects in the course of freeCodeCamp. This web page is a tribute to one of Ethiopia's most renowned biologist, Dr Aklilu Lemma and his life works.</p>
                 </div>
-                <div class="project">
+                <div class="projects__item">
                     <a href="https://github.com/abe16s/IDIR" target="_blank"><img src="images/Idir_Home_Page.png" alt="Project 2: Local Idir managing app"></a>
                     <p>A pet project with my friend through the summer of 2023 about an Idir managing application that helps facilitate the management of Idir members, monthly payments and other financial workings of Idir. This project was made with java swing that we took on OOP course at 2<sup>nd</sup> year 2<sup>nd</sup> semester.</p>
                     <aside>"Idir" is a local social system practiced in Ethiopia which is the gathering of people and helping each other through happy and bad times.</aside>
                 </div>
-                <div class="project">
+                <div class="projects__item">
                     <a href="Resources/web_pages/cafe_menu.html" target="_blank"><img src="images/Cafe_Menu.png" alt="Project 3: A sample cafe menu"></a>
                     <p>An example project on the freeCodeCamp course. This web page is a menu for a hypothetical cafe.</p>
                 </div>
-                <div class="project">
+                <div class="projects__item">
                     <a href="Resources/web_pages/technical_documentation.html" target="_blank"><img src="images/Technical_Documentation.png" alt="Project 4: A technical documentation"></a>
                     <p>One of the required projects of the freeCodeCamp course. This one is a responsive technical documentation page which I made with project proposal of my course project for the course Fundamental of Software Engineering</p>
                 </div>
-                <div class="project">
+                <div class="projects__item">
                     <a href="Resources/web_pages/bar_chart.html" target="_blank"><img src="images/Bar_chart.png" alt="Project 5: A simple bar chart"></a>
                     <p>An example project on the freeCodeCamp course. This web page is just a simple bar chart example</p>
                 </div>
-                <div class="project">
+                <div class="projects__item">
                     <a href="Resources/web_pages/survey_form.html" target="_blank"><img src="images/Survey_form.png" alt="Project 6: A sample survey"></a>   
                     <p>This one is also one of the required projects of the freeCodeCamp course. This one is a sample survey to practice the form structure in html.</p>
                 </div>
             </section>
         </main>
         <footer>
-            <div id="footer">
-                <nav id="sitemap">
-                    <ul class="lists">
+            <div class="footer-content">
+                <nav class="sitemap">
+                    <ul class="sitemap__lists">
                         <li><a href="Home.html">Home</a></li>
                         <li><a href="Resume.html">Resume</a></li>
                         <li><a href="Projects.html">Projects</a></li>
@@ -72,9 +72,9 @@
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </nav>
-                <address id="socials">
+                <address class="socials">
                     <p>How do you prefer to take coffee?</p>
-                    <ul class="lists">
+                    <ul class="sitemap__lists">
                         <li><a href="https://www.facebook.com/abenezer.seifu" target="_blank">Facebook</a></li>
                         <li><a href="https://t.me/Abe16s" target="_blank">Telegram</a></li>
                         <li><a href="https://www.instagram.com/abe16s/" target="_blank">Instagram</a></li>
@@ -86,8 +86,8 @@
                 </address>
             </div>
             <hr>
-            <div id="copyright">
-                <img src="images/AB_Logo.jpg" alt="AB Logo" class="logo">
+            <div class="copyright">
+                <img src="images/AB_Logo.jpg" alt="AB Logo" class="navbar__logo">
                 <p>Copyright ©2023 All rights reserved | Abenezer Seifu </p>
             </div>
         </footer>
