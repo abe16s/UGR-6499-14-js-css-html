@@ -346,6 +346,22 @@ footer {
     opacity: 1;
 }
 
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
 /*Resume Page*/
 .parts {
     padding: 30px 5%;
@@ -649,14 +665,66 @@ footer {
     column-gap: 20px;
 }
 
-.images a {
+.images div {
     width: min(100%,400px);
     margin: 0 auto 20px;
     display: block;
+    overflow: hidden;
 }
 
 .images img {
     width: 100%;
+    transition: 1s;
+}
+
+.images img:hover {
+    filter: grayscale(40%);
+    transform: scale(1.1);
+}
+
+#modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#modal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal__arrows {
+    position: absolute;
+    color: var(--secondary);
+    font-size: 50px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal__arrows--left {
+    left: 20px;
+}
+
+.modal__arrows--right {
+    right: 20px;
+}
+
+.modal__div {
+    width: 80%;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
 }
 
 .slaughtering {
@@ -1085,4 +1153,17 @@ footer {
     .contact-form {
         order: 0;
     }
+}
+
+
+.contact-form__message {
+    font-size: 0.8em;
+    width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.contact-form__message i {
+    width: max-content;
+    display: inline-block;
 }
