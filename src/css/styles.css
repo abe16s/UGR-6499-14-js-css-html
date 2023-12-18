@@ -149,7 +149,7 @@ hr {
 footer {
     background-color: var(--primary);
     color: var(--secondary);
-    padding: 15px;
+    padding: 40px 15px 20px;
 }
 
 .footer-content {
@@ -438,7 +438,11 @@ footer {
     color: var(--primary);
     border-radius: 0.375em;
     position: relative;
-    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    padding: 1.25rem 1.5rem;
+}
+
+.education__schools:first-of-type, .experience__item:first-of-type {
+    margin-top: 50px;
 }
 
 .education__schools a {
@@ -450,7 +454,7 @@ footer {
 }
 
 .school {
-    border-bottom: 2px solid var(--secondary);
+    border-bottom: 2px solid var(--primary);
     text-align: center;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -463,12 +467,12 @@ footer {
 }
 
 .experience__item {
-    margin: 30px;
+    margin: 20px;
     background-color: #f4f4f4;
     color: var(--primary);
     border-radius: 0.375em;
     position: relative;
-    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    padding: 1.25rem 1.5rem;
 }
 
 .experience__item a {
@@ -1090,7 +1094,7 @@ footer {
     }
 
     .other-pages img {
-        width: min(70%,350px);
+        width: min(50%,350px);
     }
 
     /*Resume Page*/
