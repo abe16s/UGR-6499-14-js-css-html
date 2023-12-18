@@ -87,3 +87,27 @@ document.getElementsByClassName('modal__div')[0].addEventListener("click", close
 document.getElementsByClassName("modal__arrows--left")[0].addEventListener("click", prevImage)
 document.getElementsByClassName("modal__arrows--right")[0].addEventListener("click", nextImage)
 
+const slider = document.getElementsByClassName('modal__div')[0];
+let touchStartX = 0;
+let touchEndX = 0;
+
+slider.addEventListener('touchstart', function(event) {
+    touchStartX = event.touches[0].clientX;
+});
+
+slider.addEventListener('touchmove', function(event) {
+    touchEndX = event.touches[0].clientX;
+});
+
+slider.addEventListener('touchend', function() {
+    handleSwipe();
+});
+
+function handleSwipe() {
+    const sensitivity = 50; 
+    if (touchStartX - touchEndX > sensitivity) {
+        nextImage();
+    } else if (touchEndX - touchStartX > sensitivity) {
+        prevImage();
+    }
+}

@@ -139,6 +139,12 @@ hr {
     box-shadow: 0 0 0 1px var(--secondary);
 }
 
+.navbar-item--current {
+    border-bottom: 3px solid var(--secondary);
+    background-color: rgba(255, 255, 255, 40%);
+    pointer-events: none;
+}
+
 /*Footer*/
 footer {
     background-color: var(--primary);
@@ -428,6 +434,19 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 20px auto;
+    background-color: #f4f4f4;
+    color: var(--primary);
+    border-radius: 0.375em;
+    position: relative;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+}
+
+.education__schools a {
+    color: var(--primary);
+}
+
+.education__schools a:hover, .education__schools a:focus, .education__schools a:active {
+    color: var(--ternary);
 }
 
 .school {
@@ -445,6 +464,27 @@ footer {
 
 .experience__item {
     margin: 30px;
+    background-color: #f4f4f4;
+    color: var(--primary);
+    border-radius: 0.375em;
+    position: relative;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+}
+
+.experience__item a {
+    color: var(--primary);
+}
+
+.experience__item a:hover, .experience__item a:focus, .experience__item a:active {
+    color: var(--ternary);
+}
+
+.experience__item__aside {
+    background-color: #fffaeb;
+    color: #946c00;
+    border-radius: 0.375em;
+    position: relative;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;   
 }
 
 .experience__item > h4 {
@@ -635,6 +675,14 @@ footer {
     font-style: oblique;
     text-align: center;
     padding: 0 40px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    color: #494949;
+    display: block;
+    padding: 1.25rem;
+    width: 90%;
+    margin: 20px auto;
 }
 
 .gurage a {
@@ -728,7 +776,7 @@ footer {
 }
 
 .slaughtering {
-    width: 90%;
+    width: min(90%,800px);
     margin: 20px auto;
     display: block;
 }
@@ -1009,6 +1057,18 @@ footer {
 }
 
 
+.contact-form__message {
+    font-size: 0.8em;
+    width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.contact-form__message i {
+    width: max-content;
+    display: inline-block;
+}
+
 @media (min-width: 768px) {
     body {
         font-size: 1.1em;
@@ -1111,10 +1171,6 @@ footer {
     .navbar__toggle-button {
         display: none;
     }
-
-    .navbar-item--current {
-        border-bottom: 3px solid var(--secondary);
-    }
     
     .navbar ul {
         display: flex;
@@ -1153,17 +1209,4 @@ footer {
     .contact-form {
         order: 0;
     }
-}
-
-
-.contact-form__message {
-    font-size: 0.8em;
-    width: 80%;
-    margin: auto;
-    display: none;
-}
-
-.contact-form__message i {
-    width: max-content;
-    display: inline-block;
 }
